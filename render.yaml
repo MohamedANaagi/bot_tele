@@ -1,0 +1,9 @@
+services:
+  - type: worker
+    name: telegram-bot
+    env: python
+    buildCommand: ""
+    startCommand: "python bot.py"
+    autoDeploy: true
+    branch: main
+    repo: https://github.com/username/repo-name
