@@ -9,7 +9,7 @@ TOKEN = "7718089015:AAEl7w8MCy5iIEhYVmP-53wVQ9Cb5VvmOVY"
 # دالة البداية
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     buttons = [
-<<<<<<< HEAD
+
         [KeyboardButton("بيسبسيسبيسبي ➗")],
         [KeyboardButton("gfdgdfgdfg 🧪")],
         [KeyboardButton("أحياء 🌿")],
