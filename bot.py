@@ -1,11 +1,9 @@
 from telegram import Update, KeyboardButton, ReplyKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, ContextTypes, filters
 
-<<<<<<< HEAD
+
 TOKEN = "7718089015:AAEl7w8MCy5iIEhYVmP-53wVQ9Cb5VvmOVY"
-=======
-TOKEN = "7718089015:AAEl7w8MCy5iIEhYVmP-53wVQ9Cb5VvmOVY"  # يفضل تخليه في ملف .env أو متغير بيئي عشان الأمان
->>>>>>> fffaf25f186779e6c7e14ba98523ebe38a17b7dc
+
 
 
 # دالة البداية
