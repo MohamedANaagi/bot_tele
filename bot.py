@@ -12,16 +12,11 @@ TOKEN = "7718089015:AAEl7w8MCy5iIEhYVmP-53wVQ9Cb5VvmOVY"  # يفضل تخليه 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     buttons = [
 <<<<<<< HEAD
-        [KeyboardButton("رياضيات ➗")],
+        [KeyboardButton("بيسبسيسبيسبي ➗")],
         [KeyboardButton("gfdgdfgdfg 🧪")],
         [KeyboardButton("أحياء 🌿")],
         [KeyboardButton("فيزياء ⚡")]
-=======
-        [KeyboardButton("ghhhhhhhghgfhghghhhhfghgfh ➗")],
-        [KeyboardButton("كيمياء 🧪")],
-        [KeyboardButton("فيزياء ⚡")],
-        [KeyboardButton("أحياء 🌿")]
->>>>>>> fffaf25f186779e6c7e14ba98523ebe38a17b7dc
+
     ]
     reply_markup = ReplyKeyboardMarkup(buttons, resize_keyboard=True, one_time_keyboard=False)
     await update.message.reply_text("👋 مرحبًا بك! اختر القسم من القائمة:", reply_markup=reply_markup)
