@@ -6,4 +6,4 @@ services:
     startCommand: "python bot.py"
     autoDeploy: true
     branch: main
-    repo: https://github.com/username/repo-name
+    repo: https://github.com/MohamedANaagi/bot_tele.git
