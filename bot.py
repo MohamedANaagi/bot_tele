@@ -5,7 +5,7 @@ TOKEN = "7718089015:AAEl7w8MCy5iIEhYVmP-53wVQ9Cb5VvmOVY"  # يفضل تخليه 
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     buttons = [
-        [KeyboardButton("رياضيات ➗")],
+        [KeyboardButton("ghhhhhhhghgfhghghhhhfghgfh ➗")],
         [KeyboardButton("كيمياء 🧪")],
         [KeyboardButton("فيزياء ⚡")],
         [KeyboardButton("أحياء 🌿")]
