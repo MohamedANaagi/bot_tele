@@ -1,7 +1,7 @@
 from telegram import Update, KeyboardButton, ReplyKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, ContextTypes, filters
 
-TOKEN = '7711940277:AAHAC6EkE3VXX-TwxItShj3zCWlnUQTyza4'  # يفضل تخليه في ملف .env أو متغير بيئي عشان الأمان
+TOKEN = "7718089015:AAEl7w8MCy5iIEhYVmP-53wVQ9Cb5VvmOVY"  # يفضل تخليه في ملف .env أو متغير بيئي عشان الأمان
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     buttons = [
