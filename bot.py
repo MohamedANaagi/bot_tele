@@ -1,20 +1,16 @@
 from telegram import Update, KeyboardButton, ReplyKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, ContextTypes, filters
 
-
+# ⚠️ التوكن الخاص بالبوت - لا تنشره علنًا!
 TOKEN = "7718089015:AAEl7w8MCy5iIEhYVmP-53wVQ9Cb5VvmOVY"
-
-
 
 # دالة البداية
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     buttons = [
-
-        [KeyboardButton("بيسبسيسبيسبي ➗")],
-        [KeyboardButton("gfdgdfgdfg 🧪")],
+        [KeyboardButton("رياضيات ➗")],
+        [KeyboardButton("كيمياء 🧪")],
         [KeyboardButton("أحياء 🌿")],
         [KeyboardButton("فيزياء ⚡")]
-
     ]
     reply_markup = ReplyKeyboardMarkup(buttons, resize_keyboard=True, one_time_keyboard=False)
     await update.message.reply_text("👋 مرحبًا بك! اختر القسم من القائمة:", reply_markup=reply_markup)
@@ -24,13 +20,13 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     text = update.message.text
 
     if "رياضيات" in text:
-        await update.message.reply_text("➗ قسم الرياضيات: شرح ومصادر مهمة، تقدر تشوف الرابط: https://t.me/+9kRyaX2EMFRlNDc0")
+        await update.message.reply_text("➗ قسم الرياضيات: شرح ومصادر مهمة، تقدر تشوف الرابط: https://t.me/+l4-SQ8LuiK81Y2Jk")
     elif "كيمياء" in text:
-        await update.message.reply_text("🧪 قسم الكيمياء: هتلاقي فيه كل ما يخص الكيمياء بشكل مبسط.")
+        await update.message.reply_text("🧪 قسم الكيمياء: هتلاقي فيه كل ما يخص الكيمياء بشكل مبسط، الرابط: https://t.me/+B4svSKu6mOEyZDk8")
     elif "أحياء" in text:
-        await update.message.reply_text("🌿 قسم الأحياء: معلومات شيقة ومفيدة تساعدك في المذاكرة.")
+        await update.message.reply_text("🌿 قسم الأحياء: معلومات شيقة ومفيدة تساعدك في المذاكرة، الرابط: https://t.me/+3G-R9ZFtqgI5MWZk")
     elif "فيزياء" in text:
-        await update.message.reply_text("⚡ قسم الفيزياء: فهم القوانين والمسائل بطريقة سهلة.")
+        await update.message.reply_text("⚡ قسم الفيزياء: فهم القوانين والمسائل بطريقة سهلة، الرابط: https://t.me/+3G-R9ZFtqgI5MWZk")
     else:
         await update.message.reply_text("😅 لم أفهم ذلك. اختر من الأزرار تحت أو اكتب /start لإعادة القائمة.")
 
