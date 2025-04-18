@@ -24,7 +24,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     elif "كيمياء" in text:
         await update.message.reply_text("🧪 قسم الكيمياء: هتلاقي فيه كل ما يخص الكيمياء بشكل مبسط، الرابط: https://t.me/+B4svSKu6mOEyZDk8")
     elif "أحياء" in text:
-        await update.message.reply_text("🌿 قسم الأحياء: معلومات شيقة ومفيدة تساعدك في المذاكرة، الرابط: https://t.me/+3G-R9ZFtqgI5MWZk")
+        await update.message.reply_text("🌿 قسم الأحياء: معلومات شيقة ومفيدة تساعدك في المذاكرة، الرابط: https://t.me/+gPZoFtzpfx0yODE0")
     elif "فيزياء" in text:
         await update.message.reply_text("⚡ قسم الفيزياء: فهم القوانين والمسائل بطريقة سهلة، الرابط: https://t.me/+3G-R9ZFtqgI5MWZk")
     else:
