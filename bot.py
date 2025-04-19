@@ -2,7 +2,7 @@ from telegram import Update, KeyboardButton, ReplyKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, ContextTypes, filters
 
 # ⚠️ التوكن الخاص بالبوت - لا تنشره علنًا!
-TOKEN = "7718089015:AAEl7w8MCy5iIEhYVmP-53wVQ9Cb5VvmOVY"
+TOKEN = "7718089015:AAGBdkmDIRnEHURJLOKPLCCuCevz5K0Rgo4"
 
 # دالة البداية
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
